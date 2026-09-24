@@ -1,11 +1,307 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/media.css" />
+    <link rel="icon" href="img/header/logo.svg" />
+    <title>Coffee House</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-menu">
+        <a href="index.html" class="header-link">
+          <img
+            class="header-logo"
+            src="img/header/logo.svg"
+            alt="Coffee House Logo"
+          />
+        </a>
+        <div class="header-navigation">
+          <ul class="header__list">
+            <li class="header__item">
+              <a href="#favorite-coffee" class="header__link"
+                >Любимый кофе</a
+              >
+            </li>
+            <li class="header__item">
+              <a href="#about" class="header__link">О нас</a>
+            </li>
+            <li class="header__item">
+              <a href="#mobile" class="header__link">Приложение</a>
+            </li>
+            <li class="header__item">
+              <a href="#contacts" class="header__link">Контакты</a>
+            </li>
+          </ul>
+        </div>
+        <div class="header-actions">
+          <button
+            type="button"
+            class="theme-witch"
+            id="theme-toggle"
+            aria-label="change theme"
+          >
+            <span class="theme__light header-theme">
+              <img
+                class="theme__icon"
+                src="img/buttons/Sun.svg"
+                alt="Sun Icon"
+              />
+            </span>
+            <span class="theme__dark header-theme">
+              <img
+                class="theme__icon"
+                src="img/buttons/Moon.svg"
+                alt="Moon Icon"
+              />
+            </span>
+          </button>
+          <a href="catalog.html" class="coffee-menu">
+            <p class="coffee-menu__text">menu</p>
+            <img
+              class="coffee-menu__icon"
+              src="img/header/coffee-cup.svg"
+              alt="Menu Icon"
+            />
+          </a>
+          <button
+            class="hamburger"
+            type="button"
+            aria-label="Open menu"
+            aria-expanded="false"
+          >
+            <span class="hamburger__line"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="hero section">
+        <div class="hero-container">
+          <div class="hero-offer">
+            <h1 class="hero-offer__title">
+              <span class="color-word">Наслаждайтесь</span> премиальным кофе в нашем очаровательном кафе
+            </h1>
+            <p class="hero-offer__description">
+             Coffee House Арабика с его уютной атмосферой и вкуснейшим кофе — популярное место среди любителей кофе и тех, кто ищет теплое и гостеприимное место, чтобы насладиться своим любимым напитком.
+            </p>
+            <a class="hero-offer__button" href="catalog.html">menu</a>
+          </div>
+        </div>
+      </section>
+      <section class="favorite-coffee section" id="favorite-coffee">
+        <div class="favorite-coffee-container">
+          <h2 class="favorite-coffee__title main-section__text">
+            Выберите свой <span class="color-word">любимый</span> кофе
+          </h2>
+          <div class="favorite-coffee__slider">
+            <button
+              type="button"
+              class="favorite-coffee__arrow favorite-coffee__arrow--left"
+            ></button>
+            <div class="favorite-coffee__slider--row">
+              <div class="favorite-coffee__slider--content">
+                <img
+                  src="img/main/coffee-slider-1.svg"
+                  class="favorite-coffee__slider--1"
+                  alt="coffee-slider-1"
+                />
+                <div class="favorite-coffee__slider--description">
+                  <p
+                    class="favorite-coffee__slider--description--title main-section__text"
+                  >
+                     Frappuccino
+                  </p>
+                  <p
+                    class="favorite-coffee__slider--description--text main-section__text"
+                  >
+                    В этом новом напитке эспрессо смешивают с коричневым сахаром и корицей, а затем добавляют овсяное молоко.
+                  </p>
+                  <p
+                    class="favorite-coffee__slider--description--price main-section__text"
+                  >
+                    250 рублей
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button
+              type="button"
+              class="favorite-coffee__arrow favorite-coffee__arrow--right"
+            ></button>
+          </div>
+        </div>
+      </section>
+      <section class="about section" id="about">
+        <h2 class="about__title main-section__text">
+          Арабика, 
+          <span class="color-word">это идеальное и уютное место</span> где вы можете насладиться разнообразными горячими напитками, расслабиться, пообщаться с друзьями или поработать.
+        </h2>
+        <div class="about-container">
+          <div class="about__images">
+            <div class="about__images--column--1">
+              <img
+                src="img/main/about-1.jpg"
+                class="about__images--column--one about__images--column--big"
+                alt="about-1"
+              />
+              <img
+                src="img/main/about-2.jpg"
+                class="about__images--column--two about__images--column--small"
+                alt="about-1"
+              />
+            </div>
+            <div class="about__images--column--2">
+              <img
+                src="img/main/about-3.jpg"
+                class="about__images--column--three about__images--column--small"
+                alt="about-1"
+              />
+              <img
+                src="img/main/about-4.jpg"
+                class="about__images--column--four about__images--column--big"
+                alt="about-1"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="mobile-app section" id="mobile">
+        <div class="mobile-app-container">
+          <div class="mobile-app-container__offer">
+            <h2 class="mobile-app-container__offer--title main-section__text">
+              <span class="color-word">Установить</span> 
+            </h2>
+            <p class="mobile-app-container__offer--text main-section__text">
+              Загрузите приложение Арабика сегодня и оцените удобство заказа любимого кофе, где бы вы ни находились.
+            </p>
+            <div class="mobile-app-container__offer--buttons">
+              <button type="button" class="button-app-store mobile-buttons">
+                <img
+                  src="img/buttons/icon-1.svg"
+                  class="button-app-store__image button-app"
+                  alt="app-store"
+                />
+                <span class="button-app-store__description buttons__mobile-app">
+                  <span class="button-app-store--title main-section__text">
+                    available on the
+                  </span>
+                  <span class="button-app-store--text main-section__text">
+                    app Store
+                  </span>
+                </span>
+              </button>
+              <button type="button" class="button-google-play mobile-buttons">
+                <img
+                  src="img/buttons/Icon-2.svg"
+                  class="button-google-play__image button-app"
+                  alt="google-play"
+                />
+                <span
+                  class="button-google-play__description buttons__mobile-app"
+                >
+                  <span class="button-google-play--title main-section__text">
+                    available on
+                  </span>
+                  <span class="button-google-play--text main-section__text">
+                    google Play
+                  </span>
+                </span>
+              </button>
+            </div>
+          </div>
+          <img
+            src="img/main/mobile-screens.svg"
+            class="mobile-app-container__image"
+            alt="mobile-screens"
+          />
+        </div>
+      </section>
+    </main>
+    <footer class="footer" id="contacts">
+      <div class="footer-container">
+        <div class="footer-offer">
+          <h2 class="footer-offer__title">
+           Пейте, наслаждайтесь, улыбайтесь. <span class="color-word">Пора выпить кофе!</span>
+          </h2>
+          <div class="footer-offer__socials">
+            <a
+              href="https://x.com/"
+              class="footer-offer__socials--twitter footer-logo"
+            >
+              <img
+                src="img/buttons/twitter.svg"
+                alt="twitter-logo"
+                class="twitter-logo footer-logo__icon"
+              />
+            </a>
+            <a
+              href="https://www.instagram.com/"
+              class="footer-offer__socials--instagram footer-logo"
+            >
+              <img
+                src="img/buttons/instagram.svg"
+                alt="instagram-logo"
+                class="instagram-logo footer-logo__icon"
+              />
+            </a>
+            <a
+              href="https://www.facebook.com/"
+              class="footer-offer__socials--facebook footer-logo"
+            >
+              <img
+                src="img/buttons/facebook.svg"
+                alt="facebook-logo"
+                class="facebook-logo footer-logo__icon"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="footer-contacts-info">
+          <p class="footer-contacts-info__title">contact us</p>
+          <div class="footer-contacts-info__description">
+            <a
+              href="https://www.google.com/maps?vet=10CAAQoqAOahcKEwiwgLDBm4CXAxUAAAAAHQAAAAAQFg..i&mstk=AUtExfA_n0aw0SL53sL35v7tzsXm1c_JzADtxvGyId2HOaVjwvYspv1mp1q4BPA9dtkirXjE4hop9Ao_3JP-SMYvXIAv0XN-SOpZOWgmy21TU7qrx0IIFSRRXFz6eRBMhDhsfYrN6tCBzZElpmiBy2D3LbKN2sghtTIf_d3w8UrkyxKyUlM&pvq=Cg0vZy8xMWw1Y3NuYm5jgAEBkAEB&fvr=1&cs=1&um=1&ie=UTF-8&fb=1&gl=ru&sa=X&ftid=0x80c2be9679dfc7e3:0x77f2e7a4e452a17a"
+              class="footer-contacts-info__description--links"
+            >
+              <img
+                src="img/footer/pin-alt.svg"
+                alt="pin-alt"
+                class="footer-contacts-info__description--image"
+              />
+              <p class="footer-contacts-info__description--text">
+                8558 Green Rd., LA
+              </p>
+            </a>
+            <a
+              href="tel:+1(603)555-0123"
+              class="footer-contacts-info__description--links"
+            >
+              <img
+                src="img/footer/phone.svg"
+                alt="phone"
+                class="footer-contacts-info__description--image"
+              />
+              <p class="footer-contacts-info__description--text">
+                +8 (800) 555-3535
+              </p>
+            </a>
+            <a href="#" class="footer-contacts-info__description--links">
+              <img
+                src="img/footer/clock.svg"
+                alt="clock"
+                class="footer-contacts-info__description--image"
+              />
+              <p class="footer-contacts-info__description--text">
+                Mon–Sat: 9:00–23:00
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
 </html>

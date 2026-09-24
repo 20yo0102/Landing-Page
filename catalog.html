@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="icon" href="img/header/logo.svg" />
+    <link rel="stylesheet" href="style/media.css" />
+    <title>Menu</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-menu">
+        <a href="index.html" class="header-link">
+          <img
+            class="header-logo"
+            src="img/header/logo.svg"
+            alt="Coffee House Logo"
+          />
+        </a>
+        <div class="header-navigation">
+          <ul class="header__list">
+            <li class="header__item">
+              <a href="#favorite-coffee" class="header__link"
+                >favorite coffee</a
+              >
+            </li>
+            <li class="header__item">
+              <a href="#about" class="header__link">about</a>
+            </li>
+            <li class="header__item">
+              <a href="#mobile" class="header__link">mobile app</a>
+            </li>
+            <li class="header__item">
+              <a href="#contacts" class="header__link">contact us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="header-actions">
+          <button
+            type="button"
+            class="theme-witch"
+            id="theme-toggle"
+            aria-label="change theme"
+          >
+            <span class="theme__light header-theme">
+              <img
+                class="theme__icon"
+                src="img/buttons/Sun.svg"
+                alt="Sun Icon"
+              />
+            </span>
+            <span class="theme__dark header-theme">
+              <img
+                class="theme__icon"
+                src="img/buttons/Moon.svg"
+                alt="Moon Icon"
+              />
+            </span>
+          </button>
+          <a href="catalog.html" class="coffee-menu">
+            <p class="coffee-menu__text">menu</p>
+            <img
+              class="coffee-menu__icon"
+              src="img/header/coffee-cup.svg"
+              alt="Menu Icon"
+            />
+          </a>
+          <button
+            class="hamburger"
+            type="button"
+            aria-label="Open menu"
+            aria-expanded="false"
+          >
+            <span class="hamburger__line"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="main-container">
+        <div class="main-container__offer">
+          <div class="main-container__offer--wrapper">
+            <h1 class="main-container__offer--title">
+              За каждой из наших чашек скрывается 
+              <span class="color-word">удивительный сюрприз</span>
+            </h1>
+          </div>
+          <div class="main-container__offer--tabs">
+            <div class="main-container__offer--tab">
+              <img
+                src="img/catalog/icon-1.png"
+                alt="coffee"
+                class="tab__image"
+              />
+              <p class="tab__text">coffee</p>
+            </div>
+            <div class="main-container__offer--tab">
+              <img src="img/catalog/icon-2.png" alt="tea" class="tab__image" />
+              <p class="tab__text">tea</p>
+            </div>
+            <div class="main-container__offer--tab">
+              <img
+                src="img/catalog/icon-3.png"
+                alt="dessert"
+                class="tab__image"
+              />
+              <p class="tab__text">dessert</p>
+            </div>
+          </div>
+        </div>
+        <div class="main-container-grid">
+          <div class="main-container-grid__card">
+            <img
+              src="img/catalog/coffee-1.jpg"
+              alt="coffee-1"
+              class="main-container-grid__card--image"
+            />
+            <div class="main-container-grid__wrapper">
+              <p class="main-container-grid__card--title">irish coffee</p>
+              <div class="main-container-grid__card--wrapper">
+                <p class="main-container-grid__card--text">
+                  fragrant black coffee with Jameson Irish whiskey and whipped
+                  milk
+                </p>
+                <p class="main-container-grid__card--price">390р.</p>
+              </div>
+            </div>
+          </div>
+          <div class="main-container-grid__card">
+            <img
+              src="img/catalog/coffee-2.jpg"
+              alt="coffee-2"
+              class="main-container-grid__card--image"
+            />
+            <div class="main-container-grid__wrapper">
+              <p class="main-container-grid__card--title">kahlua coffee</p>
+              <div class="main-container-grid__card--wrapper">
+                <p class="main-container-grid__card--text">
+                  classic coffee with milk and Kahlua liqueur under a cap of
+                  frothed milk
+                </p>
+                <p class="main-container-grid__card--price">400р.</p>
+              </div>
+            </div>
+          </div>
+          <div class="main-container-grid__card">
+            <img
+              src="img/catalog/coffee-3.jpg"
+              alt="coffee-3"
+              class="main-container-grid__card--image"
+            />
+            <div class="main-container-grid__wrapper">
+              <p class="main-container-grid__card--title">honey raf</p>
+              <div class="main-container-grid__card--wrapper">
+                <p class="main-container-grid__card--text">
+                  espresso with frothed milk, cream and aromatic honey
+                </p>
+                <p class="main-container-grid__card--price">550р.</p>
+              </div>
+            </div>
+          </div>
+          <div class="main-container-grid__card">
+            <img
+              src="img/catalog/coffee-4.jpg"
+              alt="coffee-4"
+              class="main-container-grid__card--image"
+            />
+            <div class="main-container-grid__wrapper">
+              <p class="main-container-grid__card--title">ice cappuccino</p>
+              <div class="main-container-grid__card--wrapper">
+                <p class="main-container-grid__card--text">
+                  cappuccino with soft thick foam in summer version with ice
+                </p>
+                <p class="main-container-grid__card--price">500р.</p>
+              </div>
+            </div>
+          </div>
+          <div class="main-container-grid__card">
+            <img
+              src="img/catalog/coffee-5.jpg"
+              alt="coffee-5"
+              class="main-container-grid__card--image"
+            />
+            <div class="main-container-grid__wrapper">
+              <p class="main-container-grid__card--title">espresso</p>
+              <div class="main-container-grid__card--wrapper">
+                <p class="main-container-grid__card--text">
+                  classic black coffee
+                </p>
+                <p class="main-container-grid__card--price">450р.</p>
+              </div>
+            </div>
+          </div>
+          <div class="main-container-grid__card">
+            <img
+              src="img/catalog/coffee-6.jpg"
+              alt="coffee-6"
+              class="main-container-grid__card--image"
+            />
+            <div class="main-container-grid__wrapper">
+              <p class="main-container-grid__card--title">latte</p>
+              <div class="main-container-grid__card--wrapper">
+                <p class="main-container-grid__card--text">
+                  espresso coffee with the addition of steamed milk and dense
+                  milk foam
+                </p>
+                <p class="main-container-grid__card--price">400р.</p>
+              </div>
+            </div>
+          </div>
+          <div class="main-container-grid__card">
+            <img
+              src="img/catalog/coffee-7.jpg"
+              alt="coffee-7"
+              class="main-container-grid__card--image"
+            />
+            <div class="main-container-grid__wrapper">
+              <p class="main-container-grid__card--title">latte macchiato</p>
+              <div class="main-container-grid__card--wrapper">
+                <p class="main-container-grid__card--text">
+                  espresso with frothed milk and chocolate
+                </p>
+                <p class="main-container-grid__card--price">350р.</p>
+              </div>
+            </div>
+          </div>
+          <div class="main-container-grid__card">
+            <img
+              src="img/catalog/coffee-8.jpg"
+              alt="coffee-8"
+              class="main-container-grid__card--image"
+            />
+            <div class="main-container-grid__wrapper">
+              <p class="main-container-grid__card--title">coffee with cognac</p>
+              <div class="main-container-grid__card--wrapper">
+                <p class="main-container-grid__card--text">
+                  fragrant black coffee with cognac and whipped cream
+                </p>
+                <p class="main-container-grid__card--price">300р.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer" id="contacts">
+      <div class="footer-container">
+        <div class="footer-offer">
+          <h2 class="footer-offer__title">
+             Пейте, наслаждайтесь, улыбайтесь. <span class="color-word">Пора выпить кофе!</span>
+          </h2>
+          <div class="footer-offer__socials">
+            <a
+              href="https://x.com/"
+              class="footer-offer__socials--twitter footer-logo"
+            >
+              <img
+                src="img/buttons/twitter.svg"
+                alt="twitter-logo"
+                class="twitter-logo footer-logo__icon"
+              />
+            </a>
+            <a
+              href="https://www.instagram.com/"
+              class="footer-offer__socials--instagram footer-logo"
+            >
+              <img
+                src="img/buttons/instagram.svg"
+                alt="instagram-logo"
+                class="instagram-logo footer-logo__icon"
+              />
+            </a>
+            <a
+              href="https://www.facebook.com/"
+              class="footer-offer__socials--facebook footer-logo"
+            >
+              <img
+                src="img/buttons/facebook.svg"
+                alt="facebook-logo"
+                class="facebook-logo footer-logo__icon"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="footer-contacts-info">
+          <p class="footer-contacts-info__title">Контакты</p>
+          <div class="footer-contacts-info__description">
+            <a
+              href="https://www.google.com/maps?vet=10CAAQoqAOahcKEwiwgLDBm4CXAxUAAAAAHQAAAAAQFg..i&mstk=AUtExfA_n0aw0SL53sL35v7tzsXm1c_JzADtxvGyId2HOaVjwvYspv1mp1q4BPA9dtkirXjE4hop9Ao_3JP-SMYvXIAv0XN-SOpZOWgmy21TU7qrx0IIFSRRXFz6eRBMhDhsfYrN6tCBzZElpmiBy2D3LbKN2sghtTIf_d3w8UrkyxKyUlM&pvq=Cg0vZy8xMWw1Y3NuYm5jgAEBkAEB&fvr=1&cs=1&um=1&ie=UTF-8&fb=1&gl=ru&sa=X&ftid=0x80c2be9679dfc7e3:0x77f2e7a4e452a17a"
+              class="footer-contacts-info__description--links"
+            >
+              <img
+                src="img/footer/pin-alt.svg"
+                alt="pin-alt"
+                class="footer-contacts-info__description--image"
+              />
+              <p class="footer-contacts-info__description--text">
+                8558 Green Rd., LA
+              </p>
+            </a>
+            <a
+              href="tel:+1(603)555-0123"
+              class="footer-contacts-info__description--links"
+            >
+              <img
+                src="img/footer/phone.svg"
+                alt="phone"
+                class="footer-contacts-info__description--image"
+              />
+              <p class="footer-contacts-info__description--text">
+                +8 (800) 555-3535
+              </p>
+            </a>
+            <a href="#" class="footer-contacts-info__description--links">
+              <img
+                src="img/footer/clock.svg"
+                alt="clock"
+                class="footer-contacts-info__description--image"
+              />
+              <p class="footer-contacts-info__description--text">
+                Mon–Sat: 9:00–23:00
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
