@@ -1,0 +1,80 @@
+/* --- Адаптивность (Mobile First + Tablet + Desktop) --- */
+@media (min-width: 768px) {
+  .header-navigation {
+    display: flex;
+  }
+  .hamburger {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .header-menu {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 12px;
+  }
+
+  .header-navigation {
+    position: absolute;
+    top: var(--header-height);
+    left: 0;
+    width: 100%;
+    background-color: var(--bg-body);
+    border-bottom: 1px solid var(--border);
+    padding: 16px 0;
+    display: none; /* скрыто по умолчанию */
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .header-navigation.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+    order: 3; /* кнопка справа */
+  }
+
+  .hero-offer__description {
+    font-size: 16px;
+  }
+
+  .favorite-coffee__slider--row {
+    grid-template-columns: 1fr;
+  }
+
+  .about__images {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .mobile-app-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .mobile-app-container__image {
+    justify-self: center;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .footer-offer__socials {
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section {
+    padding: 80px 24px;
+  }
+
+  .mobile-app-container__image {
+    max-width: 520px;
+  }
+}
