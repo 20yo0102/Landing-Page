@@ -782,3 +782,203 @@ button {
 .footer-contacts-info__description--text {
   line-height: 1.4;
 }
+/* Бургер-меню: скрываем навигацию на мобильных, показываем по клику */
+.header-navigation {
+  display: flex;
+}
+@media (max-width: 768px) {
+  .header-navigation {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    background: var(--bg-color, #fff);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transform: translateY(-150%);
+    transition: transform 0.3s ease;
+    padding: 1rem 0;
+  }
+  .header-navigation.active {
+    transform: translateY(0);
+  }
+}
+
+/* Карусель */
+.slider-wrapper {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.slider-track {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 16px;
+  padding: 8px 0;
+}
+.slider-track::-webkit-scrollbar { display: none; }
+.slider-slide {
+  min-width: 140px;
+  flex-shrink: 0;
+  scroll-snap-align: center;
+  text-align: center;
+}
+.slider-btn {
+  background: none;
+  border: 1px solid #ccc;
+  color: #333;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.slider-btn:hover { border-color: #000; }
+
+/* Карточки: скрываем лишние по умолчанию */
+.main-container-grid__card.hidden {
+  display: none;
+}
+.grid-controls {
+  margin-top: 2rem;
+  text-align: center;
+}
+.btn-primary {
+  padding: 10px 20px;
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn-primary:hover { background: #333; }
+
+/* Модальное окно */
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s, visibility 0.2s;
+}
+.modal[aria-hidden="false"] {
+  opacity: 1;
+  visibility: visible;
+}
+.modal-content {
+  background: #fff;
+  padding: 24px;
+  width: 90%;
+  max-width: 500px;
+  position: relative;
+  border-radius: 8px;
+}
+.modal-close {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  line-height: 1;
+  cursor: pointer;
+  color: #333;
+}
+.modal-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  object-fit: cover;
+}
+.option-label {
+  display: block;
+  margin-top: 12px;
+}
+.option-select {
+  width: 100%;
+  padding: 6px;
+}
+.modal-total {
+  margin-top: 16px;
+  font-weight: bold;
+}
+.slider-wrapper {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.slider-track {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 16px;
+  padding: 8px 0;
+  /* Плавный скролл */
+  scroll-behavior: smooth;
+  /* Скрываем лишнее */
+  white-space: nowrap;
+}
+
+/* Чтобы скроллбар не мешал, но оставался доступным */
+.slider-track::-webkit-scrollbar {
+  height: 4px;
+}
+.slider-track::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 2px;
+}
+
+.slider-slide {
+  min-width: 140px;       /* ширина одного слайда */
+  flex-shrink: 0;         /* не сжимать */
+  scroll-snap-align: center;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .slider-slide {
+    min-width: 110px;     /* чуть меньше на мобильных */
+  }
+}
+
+.slider-btn {
+  background: none;
+  border: 1px solid #ccc;
+  color: #333;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.slider-btn:hover {
+  border-color: #000;
+}
+
+.slider-indicators {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 8px;
+}
+.slider-indicator {
+  width: 10px;
+  height: 10px;
+  background: #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.slider-indicator.active {
+  background: #000;
+}
