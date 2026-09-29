@@ -1,0 +1,938 @@
+[
+  {
+    "id": 1,
+    "category": "coffee",
+    "title": "Frappuccino",
+    "description": "Эспрессо, смешанный с коричневым сахаром и корицей, с добавлением овсяного молока",
+    "image": "img/catalog/coffee-1.png",
+    "price": 250,
+    "sizes": [
+      {
+        "size": "S",
+        "volume": "200 мл",
+        "price": 0
+      },
+      {
+        "size": "M",
+        "volume": "300 мл",
+        "price": 50
+      },
+      {
+        "size": "L",
+        "volume": "400 мл",
+        "price": 100
+      }
+    ],
+    "additives": [
+      {
+        "name": "Сахар",
+        "price": 0
+      },
+      {
+        "name": "Карамель",
+        "price": 30
+      },
+      {
+        "name": "Взбитые сливки",
+        "price": 40
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "category": "coffee",
+    "title": "Латте",
+    "description": "Классический латте с нежной молочной пенкой и насыщенным вкусом эспрессо",
+    "image": "img/catalog/coffee-2.png",
+    "price": 230,
+    "sizes": [
+      {
+        "size": "S",
+        "volume": "200 мл",
+        "price": 0
+      },
+      {
+        "size": "M",
+        "volume": "300 мл",
+        "price": 50
+      },
+      {
+        "size": "L",
+        "volume": "400 мл",
+        "price": 100
+      }
+    ],
+    "additives": [
+      {
+        "name": "Сахар",
+        "price": 0
+      },
+      {
+        "name": "Карамель",
+        "price": 30
+      },
+      {
+        "name": "Взбитые сливки",
+        "price": 40
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "category": "coffee",
+    "title": "Капучино",
+    "description": "Идеальный баланс эспрессо, молока и воздушной пены",
+    "image": "img/catalog/coffee-3.png",
+    "price": 240,
+    "sizes": [
+      {
+        "size": "S",
+        "volume": "200 мл",
+        "price": 0
+      },
+      {
+        "size": "M",
+        "volume": "300 мл",
+        "price": 50
+      },
+      {
+        "size": "L",
+        "volume": "400 мл",
+        "price": 100
+      }
+    ],
+    "additives": [
+      {
+        "name": "Сахар",
+        "price": 0
+      },
+      {
+        "name": "Карамель",
+        "price": 30
+      },
+      {
+        "name": "Взбитые сливки",
+        "price": 40
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "category": "coffee",
+    "title": "Эспрессо",
+    "description": "Крепкий насыщенный кофе для настоящих ценителей",
+    "image": "img/catalog/coffee-4.png",
+    "price": 180,
+    "sizes": [
+      {
+        "size": "S",
+        "volume": "50 мл",
+        "price": 0
+      },
+      {
+        "size": "M",
+        "volume": "100 мл",
+        "price": 30
+      },
+      {
+        "size": "L",
+        "volume": "150 мл",
+        "price": 60
+      }
+    ],
+    "additives": [
+      {
+        "name": "Сахар",
+        "price": 0
+      },
+      {
+        "name": "Карамель",
+        "price": 30
+      },
+      {
+        "name": "Взбитые сливки",
+        "price": 40
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "category": "coffee",
+    "title": "Раф",
+    "description": "Нежный кофейный напиток со сливками и ванилью",
+    "image": "img/catalog/coffee-5.png",
+    "price": 270,
+    "sizes": [
+      {
+        "size": "S",
+        "volume": "200 мл",
+        "price": 0
+      },
+      {
+        "size": "M",
+        "volume": "300 мл",
+        "price": 50
+      },
+      {
+        "size": "L",
+        "volume": "400 мл",
+        "price": 100
+      }
+    ],
+    "additives": [
+      {
+        "name": "Сахар",
+        "price": 0
+      },
+      {
+        "name": "Карамель",
+        "price": 30
+      },
+      {
+        "name": "Взбитые сливки",
+        "price": 40
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "category": "coffee",
+    "title": "Мокко",
+    "description": "Шоколад и эспрессо в гармоничном сочетании",
+    "image": "img/catalog/coffee-6.png",
+    "price": 260,
+    "sizes": [
+      {
+        "size": "S",
+        "volume": "200 мл",
+        "price": 0
+      },
+      {
+        "size": "M",
+        "volume": "300 мл",
+        "price": 50
+      },
+      {
+        "size": "L",
+        "volume": "400 мл",
+        "price": 100
+      }
+    ],
+    "additives": [
+      {
+        "name": "Сахар",
+        "price": 0
+      },
+      {
+        "name": "Карамель",
+        "price": 30
+      },
+      {
+        "name": "Взбитые сливки",
+        "price": 40
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "category": "coffee",
+    "title": "Флэт Уайт",
+    "description": "Двойной эспрессо с тонким слоем молочной пены",
+    "image": "img/catalog/coffee-7.png",
+    "price": 250,
+    "sizes": [
+      {
+        "size": "S",
+        "volume": "200 мл",
+        "price": 0
+      },
+      {
+        "size": "M",
+        "volume": "300 мл",
+        "price": 50
+      },
+      {
+        "size": "L",
+        "volume": "400 мл",
+        "price": 100
+      }
+    ],
+    "additives": [
+      {
+        "name": "Сахар",
+        "price": 0
+      },
+      {
+        "name": "Карамель",
+        "price": 30
+      },
+      {
+        "name": "Взбитые сливки",
+        "price": 40
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "category": "coffee",
+    "title": "Американо",
+    "description": "Чистый вкус эспрессо, разбавленный горячей водой",
+    "image": "img/catalog/coffee-8.png",
+    "price": 200,
+    "sizes": [
+      {
+        "size": "S",
+        "volume": "200 мл",
+        "price": 0
+      },
+      {
+        "size": "M",
+        "volume": "300 мл",
+        "price": 50
+      },
+      {
+        "size": "L",
+        "volume": "400 мл",
+        "price": 100
+      }
+    ],
+    "additives": [
+      {
+        "name": "Сахар",
+        "price": 0
+      },
+      {
+        "name": "Карамель",
+        "price": 30
+      },
+      {
+        "name": "Взбитые сливки",
+        "price": 40
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "category": "tea",
+    "title": "Чёрный чай",
+    "description": "Классический цейлонский чай с насыщенным вкусом",
+    "image": "img/catalog/tea-1.png",
+    "price": 150,
+    "sizes": [
+      {
+        "size": "S",
+        "volume": "200 мл",
+        "price": 0
+      },
+      {
+        "size": "M",
+        "volume": "300 мл",
+        "price": 30
+      },
+      {
+        "size": "L",
+        "volume": "400 мл",
+        "price": 60
+      }
+    ],
+    "additives": [
+      {
+        "name": "Сахар",
+        "price": 0
+      },
+      {
+        "name": "Лимон",
+        "price": 10
+      },
+      {
+        "name": "Мёд",
+        "price": 20
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "category": "tea",
+    "title": "Зелёный чай",
+    "description": "Свежий зелёный чай с тонким ароматом",
+    "image": "img/catalog/tea-2.png",
+    "price": 160,
+    "sizes": [
+      {
+        "size": "S",
+        "volume": "200 мл",
+        "price": 0
+      },
+      {
+        "size": "M",
+        "volume": "300 мл",
+        "price": 30
+      },
+      {
+        "size": "L",
+        "volume": "400 мл",
+        "price": 60
+      }
+    ],
+    "additives": [
+      {
+        "name": "Сахар",
+        "price": 0
+      },
+      {
+        "name": "Лимон",
+        "price": 10
+      },
+      {
+        "name": "Мёд",
+        "price": 20
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "category": "tea",
+    "title": "Улун",
+    "description": "Молочный улун с кремовым послевкусием",
+    "image": "img/catalog/tea-3.png",
+    "price": 190,
+    "sizes": [
+      {
+        "size": "S",
+        "volume": "200 мл",
+        "price": 0
+      },
+      {
+        "size": "M",
+        "volume": "300 мл",
+        "price": 30
+      },
+      {
+        "size": "L",
+        "volume": "400 мл",
+        "price": 60
+      }
+    ],
+    "additives": [
+      {
+        "name": "Сахар",
+        "price": 0
+      },
+      {
+        "name": "Лимон",
+        "price": 10
+      },
+      {
+        "name": "Мёд",
+        "price": 20
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "category": "tea",
+    "title": "Каркаде",
+    "description": "Яркий чай из лепестков гибискуса",
+    "image": "img/catalog/tea-4.png",
+    "price": 170,
+    "sizes": [
+      {
+        "size": "S",
+        "volume": "200 мл",
+        "price": 0
+      },
+      {
+        "size": "M",
+        "volume": "300 мл",
+        "price": 30
+      },
+      {
+        "size": "L",
+        "volume": "400 мл",
+        "price": 60
+      }
+    ],
+    "additives": [
+      {
+        "name": "Сахар",
+        "price": 0
+      },
+      {
+        "name": "Лимон",
+        "price": 10
+      },
+      {
+        "name": "Мёд",
+        "price": 20
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "category": "tea",
+    "title": "Травяной чай",
+    "description": "Ароматный сбор из горных трав",
+    "image": "img/catalog/tea-5.png",
+    "price": 180,
+    "sizes": [
+      {
+        "size": "S",
+        "volume": "200 мл",
+        "price": 0
+      },
+      {
+        "size": "M",
+        "volume": "300 мл",
+        "price": 30
+      },
+      {
+        "size": "L",
+        "volume": "400 мл",
+        "price": 60
+      }
+    ],
+    "additives": [
+      {
+        "name": "Сахар",
+        "price": 0
+      },
+      {
+        "name": "Лимон",
+        "price": 10
+      },
+      {
+        "name": "Мёд",
+        "price": 20
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "category": "tea",
+    "title": "Чай с бергамотом",
+    "description": "Классический Эрл Грей с цитрусовой нотой",
+    "image": "img/catalog/tea-6.png",
+    "price": 175,
+    "sizes": [
+      {
+        "size": "S",
+        "volume": "200 мл",
+        "price": 0
+      },
+      {
+        "size": "M",
+        "volume": "300 мл",
+        "price": 30
+      },
+      {
+        "size": "L",
+        "volume": "400 мл",
+        "price": 60
+      }
+    ],
+    "additives": [
+      {
+        "name": "Сахар",
+        "price": 0
+      },
+      {
+        "name": "Лимон",
+        "price": 10
+      },
+      {
+        "name": "Мёд",
+        "price": 20
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "category": "tea",
+    "title": "Имбирный чай",
+    "description": "Согревающий чай со свежим имбирём",
+    "image": "img/catalog/tea-7.png",
+    "price": 185,
+    "sizes": [
+      {
+        "size": "S",
+        "volume": "200 мл",
+        "price": 0
+      },
+      {
+        "size": "M",
+        "volume": "300 мл",
+        "price": 30
+      },
+      {
+        "size": "L",
+        "volume": "400 мл",
+        "price": 60
+      }
+    ],
+    "additives": [
+      {
+        "name": "Сахар",
+        "price": 0
+      },
+      {
+        "name": "Лимон",
+        "price": 10
+      },
+      {
+        "name": "Мёд",
+        "price": 20
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "category": "tea",
+    "title": "Облепиховый чай",
+    "description": "Витаминный чай с облепихой и апельсином",
+    "image": "img/catalog/tea-8.png",
+    "price": 200,
+    "sizes": [
+      {
+        "size": "S",
+        "volume": "200 мл",
+        "price": 0
+      },
+      {
+        "size": "M",
+        "volume": "300 мл",
+        "price": 30
+      },
+      {
+        "size": "L",
+        "volume": "400 мл",
+        "price": 60
+      }
+    ],
+    "additives": [
+      {
+        "name": "Сахар",
+        "price": 0
+      },
+      {
+        "name": "Лимон",
+        "price": 10
+      },
+      {
+        "name": "Мёд",
+        "price": 20
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "category": "desserts",
+    "title": "Чизкейк",
+    "description": "Нежный творожный десерт на основе сливочного сыра",
+    "image": "img/catalog/dessert-1.png",
+    "price": 280,
+    "sizes": [
+      {
+        "size": "S",
+        "volume": "80 г",
+        "price": 0
+      },
+      {
+        "size": "M",
+        "volume": "120 г",
+        "price": 40
+      },
+      {
+        "size": "L",
+        "volume": "180 г",
+        "price": 80
+      }
+    ],
+    "additives": [
+      {
+        "name": "Без добавок",
+        "price": 0
+      },
+      {
+        "name": "Ягоды",
+        "price": 50
+      },
+      {
+        "name": "Шоколад",
+        "price": 30
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "category": "desserts",
+    "title": "Тирамису",
+    "description": "Воздушный итальянский десерт с маскарпоне",
+    "image": "img/catalog/dessert-2.png",
+    "price": 320,
+    "sizes": [
+      {
+        "size": "S",
+        "volume": "80 г",
+        "price": 0
+      },
+      {
+        "size": "M",
+        "volume": "120 г",
+        "price": 40
+      },
+      {
+        "size": "L",
+        "volume": "180 г",
+        "price": 80
+      }
+    ],
+    "additives": [
+      {
+        "name": "Без добавок",
+        "price": 0
+      },
+      {
+        "name": "Ягоды",
+        "price": 50
+      },
+      {
+        "name": "Шоколад",
+        "price": 30
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "category": "desserts",
+    "title": "Макарон",
+    "description": "Французское миндальное пирожное с кремовой начинкой",
+    "image": "img/catalog/dessert-3.png",
+    "price": 150,
+    "sizes": [
+      {
+        "size": "S",
+        "volume": "1 шт",
+        "price": 0
+      },
+      {
+        "size": "M",
+        "volume": "3 шт",
+        "price": 250
+      },
+      {
+        "size": "L",
+        "volume": "6 шт",
+        "price": 500
+      }
+    ],
+    "additives": [
+      {
+        "name": "Без добавок",
+        "price": 0
+      },
+      {
+        "name": "Ягоды",
+        "price": 50
+      },
+      {
+        "name": "Шоколад",
+        "price": 30
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "category": "desserts",
+    "title": "Эклер",
+    "description": "Хрустящий заварной пирожок с нежным кремом",
+    "image": "img/catalog/dessert-4.png",
+    "price": 170,
+    "sizes": [
+      {
+        "size": "S",
+        "volume": "1 шт",
+        "price": 0
+      },
+      {
+        "size": "M",
+        "volume": "3 шт",
+        "price": 270
+      },
+      {
+        "size": "L",
+        "volume": "6 шт",
+        "price": 540
+      }
+    ],
+    "additives": [
+      {
+        "name": "Без добавок",
+        "price": 0
+      },
+      {
+        "name": "Ягоды",
+        "price": 50
+      },
+      {
+        "name": "Шоколад",
+        "price": 30
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "category": "desserts",
+    "title": "Круассан",
+    "description": "Слоистое сливочное пирожное с хрустящей корочкой",
+    "image": "img/catalog/dessert-5.png",
+    "price": 160,
+    "sizes": [
+      {
+        "size": "S",
+        "volume": "1 шт",
+        "price": 0
+      },
+      {
+        "size": "M",
+        "volume": "3 шт",
+        "price": 260
+      },
+      {
+        "size": "L",
+        "volume": "6 шт",
+        "price": 520
+      }
+    ],
+    "additives": [
+      {
+        "name": "Без добавок",
+        "price": 0
+      },
+      {
+        "name": "Ягоды",
+        "price": 50
+      },
+      {
+        "name": "Шоколад",
+        "price": 30
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "category": "desserts",
+    "title": "Брауни",
+    "description": "Шоколадный десерт с насыщенным вкусом",
+    "image": "img/catalog/dessert-6.png",
+    "price": 240,
+    "sizes": [
+      {
+        "size": "S",
+        "volume": "80 г",
+        "price": 0
+      },
+      {
+        "size": "M",
+        "volume": "120 г",
+        "price": 40
+      },
+      {
+        "size": "L",
+        "volume": "180 г",
+        "price": 80
+      }
+    ],
+    "additives": [
+      {
+        "name": "Без добавок",
+        "price": 0
+      },
+      {
+        "name": "Ягоды",
+        "price": 50
+      },
+      {
+        "name": "Шоколад",
+        "price": 30
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "category": "desserts",
+    "title": "Панкейки",
+    "description": "Пышные американские блинчики с сиропом",
+    "image": "img/catalog/dessert-7.png",
+    "price": 220,
+    "sizes": [
+      {
+        "size": "S",
+        "volume": "2 шт",
+        "price": 0
+      },
+      {
+        "size": "M",
+        "volume": "3 шт",
+        "price": 60
+      },
+      {
+        "size": "L",
+        "volume": "4 шт",
+        "price": 120
+      }
+    ],
+    "additives": [
+      {
+        "name": "Без добавок",
+        "price": 0
+      },
+      {
+        "name": "Ягоды",
+        "price": 50
+      },
+      {
+        "name": "Шоколад",
+        "price": 30
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "category": "desserts",
+    "title": "Вафельный рожок",
+    "description": "Хрустящий вафельный рожок с мороженым",
+    "image": "img/catalog/dessert-8.png",
+    "price": 190,
+    "sizes": [
+      {
+        "size": "S",
+        "volume": "1 шт",
+        "price": 0
+      },
+      {
+        "size": "M",
+        "volume": "2 шт",
+        "price": 170
+      },
+      {
+        "size": "L",
+        "volume": "3 шт",
+        "price": 340
+      }
+    ],
+    "additives": [
+      {
+        "name": "Без добавок",
+        "price": 0
+      },
+      {
+        "name": "Ягоды",
+        "price": 50
+      },
+      {
+        "name": "Шоколад",
+        "price": 30
+      }
+    ]
+  }
+]

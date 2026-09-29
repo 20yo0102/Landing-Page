@@ -1,5 +1,4 @@
-/* --- Базовые сбросы и переменные --- */
-* {
+ * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -60,7 +59,7 @@ button {
   padding: 64px 16px;
 }
 
-/* --- Header --- */
+
 .header {
   position: sticky;
   top: 0;
@@ -177,7 +176,7 @@ button {
 .hamburger__line::before { top: -8px; }
 .hamburger__line::after { top: 8px; }
 
-/* --- Hero --- */
+
 .hero-container {
   max-width: 1100px;
   margin: 0 auto;
@@ -217,7 +216,7 @@ button {
   opacity: 0.9;
 }
 
-/* --- Slider (Hero section) --- */
+
 .favorite-coffee-container {
   max-width: 1100px;
   margin: 0 auto;
@@ -292,7 +291,7 @@ button {
   color: var(--accent);
 }
 
-/* --- About --- */
+
 .about__title {
   font-size: clamp(24px, 4vw, 36px);
   text-align: center;
@@ -322,7 +321,7 @@ button {
   object-fit: cover;
 }
 
-/* --- Mobile App --- */
+
 .mobile-app-container {
   max-width: 1100px;
   margin: 0 auto;
@@ -371,7 +370,7 @@ button {
   justify-self: end;
 }
 
-/* --- Main (Menu page) --- */
+
 .main {
   padding: 24px 16px;
 }
@@ -395,7 +394,6 @@ button {
   line-height: 1.1;
 }
 
-/* Табы (категории) */
 .main-container__offer--tabs {
   display: flex;
   justify-content: center;
@@ -427,7 +425,7 @@ button {
   color: var(--accent);
 }
 
-/* Сетка карточек */
+
 .main-container-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
@@ -488,7 +486,6 @@ button {
   font-size: 18px;
 }
 
-/* --- Slider (Menu page, native scroll) --- */
 .slider-wrapper {
   position: relative;
   max-width: 600px;
@@ -563,7 +560,6 @@ button {
   background: #000;
 }
 
-/* --- Footer --- */
 .footer {
   background-color: var(--bg-body);
   border-top: 1px solid var(--border);
@@ -620,7 +616,6 @@ button {
   line-height: 1.4;
 }
 
-/* --- Mobile Navigation --- */
 @media (max-width: 768px) {
   .header-navigation {
     position: absolute;
@@ -640,7 +635,7 @@ button {
   }
 }
 
-/* --- Modal --- */
+
 .modal {
   position: fixed;
   inset: 0;
@@ -702,7 +697,7 @@ button {
   font-weight: bold;
 }
 
-/* --- Utilities --- */
+
 .main-container-grid__card.hidden {
   display: none;
 }
